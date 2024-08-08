@@ -1,0 +1,10 @@
+os
+assemblyai
+nltk
+json
+langchain_community
+dotenv
+langchain
+langchain_google_genai
+langchain_ollama
+langchain_core
