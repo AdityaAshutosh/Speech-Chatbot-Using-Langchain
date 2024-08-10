@@ -5,7 +5,7 @@ A Q&A chatbot using <b>Langchain</b> framework utilizing <b>llama3</b> for RAG p
 ## Project Structure
 
 - Pre-processing of speech data stored in `dataset` folder is done in `preprocessing.ipynb` file using <b> Assembly AI </b> API, used for speech-to-text conversion.
--`retrieval.ipynb` file loads the processed text, transforms it into chunks using `RecursiveTextSplitter` available in `langchain.text_splitter` and embeds using `Google Embeddings`.
+- `retrieval.ipynb` file loads the processed text, transforms it into chunks using `RecursiveTextSplitter` available in `langchain.text_splitter` and embeds using `Google Embeddings`.
 - `FAISS` is used as vector database.
 - Using `Stuff Documents Chain` functionality to pass components prompt and LLM to fetch relevant context from vector retrieval chain to retrieve information from vector DB using `Retrieval Chain`
 
